@@ -1,35 +1,26 @@
 {
-  "name": "react-graphql",
+  "name": "merng",
   "version": "1.0.0",
-  "description": "Tutorial from freeCodeCamp.org",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "serve": "node index.js"
+    "serve": "node index",
+    "start": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matedanielcristian/react-graphql.git"
-  },
-  "keywords": [
-    "graphql",
-    "react",
-    "mongoose",
-    "node"
-  ],
-  "author": "MDC",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matedanielcristian/react-graphql/issues"
-  },
-  "homepage": "https://github.com/matedanielcristian/react-graphql#readme",
   "dependencies": {
     "apollo-server": "^2.5.0",
     "bcryptjs": "^2.4.3",
-    "graphql": "^15.7.2",
+    "graphql": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.12",
-    "nodemon": "^2.0.14"
+    "mongoose": "^5.5.11",
+    "react-router-dom": "^5.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
